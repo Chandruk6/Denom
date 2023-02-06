@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn:hover{
+    background-color: orange;
+    color: white;
+}
+.nav-item{
+    margin-left: 10px;
+}
+#About .img1{
+    position: relative;
+    left: 40%;
+    top: 20%;
+}
+#About .img3{
+    position: relative;
+    bottom: 15%;
+    left: 30%;
+}
+#About .contant{
+    margin-top: 80%;
+}
+.box{
+    width: 100%;
+    float: left;
+    background-color: rgb(224, 9, 138);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.marriage_section {
+    width: 100%;
+    float: left;
+    background: linear-gradient(to right, #693dab, #cd29a2);
+    padding-bottom: 90px;
+}
+
+.marriage_img {
+    width: 100%;
+    float: left;
+}
+
+.padding_left_0 {
+    padding-left: 0px;
+}
+
+.marriage_taital_main {
+    width: 80%;
+    float: left;
+}
+
+.marriage_taital {
+    width: 100%;
+    float: left;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.marriage_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.marriage_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 0px;
+}
+
+.marriage_taital_left {
+    width: 30%;
+    float: left;
+}
+
+.marriage_taital_right {
+    width: 70%;
+    float: left;
+}
+
+.car_image {
+    text-align: center;
+}
+
+.car_box {
+    width: 100px;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.parking_text {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 52px;
+}
+
+.long_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.mail_main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mail_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #424343;
+    border: 1px solid #8e8e8e;
+    background-color: #ffff;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.massage-bt {
+    color: #424343;
+    width: 100%;
+    font-size: 18px;
+    background-color: #ffff;
+    padding: 15px;
+    border: 1px solid #8e8e8e;
+    height: 60px;
+    margin-top: 20px;
+}
+.nav-link:hover{
+    text-decoration: none;
+    color: rgb(165, 73, 73);
+}
+
+.Grooms-box{
+    border: 2px dotted black;
+    height: 400px;
+}
+
+.footer_section {
+    width: 100%;
+    float: left;
+    background-color: #2d2c2d;
+    padding: 50px 0px;
+}
+
+.social_icon {
+    padding: 20px 0px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.padding_10 {
+    padding: 0px 10px;
+}
+
+.location_main {
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+}
+
+.location_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #fdfefe;
+}
+
+.location_text a {
+    color: #fdfefe;
+}
+
+.location_text a:hover {
+    color: #fb8a05;
+}
+
+.center {
+    text-align: center;
+}
+
+.padding10 {
+    padding-left: 10px;
+}
+
+.right {
+    text-align: right;
+    float: right;
+}
+
+.Enter_mail_main {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.Enter_text {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #8d8c8c;
+    background-color: #ffffff;
+    padding: 8px 10px;
+    margin-top: 10px;
+    border: 0px;
+    height: 52px;
+}
+
+input.Enter_text::placeholder {
+    color: #9e9c9c;
+}
+
+.subscribe_bt {
+    width: 170px;
+    float: left;
+    margin-top: 10px;
+}
+
+.subscribe_bt a {
+    text-decoration: none;
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #fb8a05;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 13px 0px;
+    text-transform: uppercase;
+}
+
+.subscribe_bt a:hover {
+    color: #9e9c9c;
+}
+
+@media (max-width: 575px)
+ {
+    #About .img1,#About .img3{
+    width: 100%;
+    float: initial;
+    position: initial;
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+    margin: 0 auto;
+    text-align: center;
+    }
+    #About .contant{
+        margin-top: 5px;
+    }
+    #About .contant button{
+        margin-bottom: 10px;
+    }
+    #Blogs img{
+        width: 70%;
+        margin-left: 2px;
+    }
+
+    #Blogs .num{
+
+        display: none;
+        
+    }
+    #Grooms .Grooms-box{
+        border: 2px dotted black;
+    height: 500px;
+    }
+    #Grooms h3,    #Grooms p{
+        margin-left: 0;
+        font-size: 12px;
+    }
+    #Grooms .icon{
+        margin-top: 1px;
+    }
+    .footer_section .location_main img{
+       width: 12px;
+    }
+    .footer_section .contact{
+        font-size: 10px;
+    }
+    .footer_section .contact img{
+        width: 8%;
+    }
+    #Home .carousel-caption{
+        margin-top: 2px;
+    } 
+    .carousel-caption {
+        font-size: 12px;
+    }
+    .carousel-caption .btn {
+        font-size: 10px;
+    }
+    #Marriage  .car_box{
+        width: 75px;
+        height:85px;
+    }
+    .Enter_text{
+        width: 80%;
+    }
+
+}
+
+
